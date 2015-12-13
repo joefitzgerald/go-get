@@ -1,5 +1,10 @@
-# go-get package
+# `go-get` [![Build Status](https://travis-ci.org/joefitzgerald/go-get.svg?branch=master)](https://travis-ci.org/joefitzgerald/go-get) [![Build status](https://ci.appveyor.com/api/projects/status/qdu5k1n7a5cgm1hp?svg=true)](https://ci.appveyor.com/project/joefitzgerald/go-get)
 
-A short description of your package.
+An Atom package that uses the `go` tool to fetch and update dependencies. An Atom [`service`](https://atom.io/docs/latest/behind-atom-interacting-with-other-packages-via-services) is provided so that other packages can prompt a user to install a go library or tool.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+### Prerequisites
+
+This package requires the following packages to be installed:
+
+* [`environment`](https://atom.io/packages/environment)
+* [`go-config`](https://atom.io/packages/go-config)
