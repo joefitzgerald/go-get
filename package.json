@@ -25,7 +25,7 @@
     "atom-package-deps": "4.2.0"
   },
   "devDependencies": {
-    "fs-plus": "^2.9.2",
+    "fs-plus": "^2.9.3",
     "standard": "^8.3.0",
     "temp": "^0.8.3"
   },
